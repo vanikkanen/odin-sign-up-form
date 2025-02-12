@@ -138,7 +138,13 @@
     height: 50px;
     font-size: 1rem;
     font-weight: bold;
-    box-shadow: 0px 5px 5px lightgrey;
+    box-shadow: var(--shadow);
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    border: 2px solid lightblue !important;
+    outline: none;
 }
 
 input:focus {
