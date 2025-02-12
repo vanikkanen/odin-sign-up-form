@@ -22,10 +22,42 @@
                 <p>You <i>know</i> you want to.</p> 
             </header>
         
-            <form class="signup-form">
-
+            <form id="signup-form" action='' method='post' class="signup-form">
+                <legend>Let's do this!</legend>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first-name">FIRST NAME</label>
+                        <input id="first-name" name="first-name" type="text"/>    
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">LAST NAME</label>
+                        <input id="last-name" name="last-name" type="text"/>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="user-email">EMAIL</label>
+                        <input id="user-email" name="user-email" type="email"/>    
+                    </div>
+                    <div class="form-group">
+                        <label for="user-phone-number">PHONE NUMBER</label>
+                        <input id="user-phone-number" name="user-phone-number" type="tel"/>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="user-password">PASSWORD</label>
+                        <input id="user-password" name="user-password" type="password"/>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="user-password-confirmation">CONFIRM PASSWORD</label>
+                        <input id="user-password-confirmation" name="user-password-confirmation" type="password"/>
+                    </div>
+                </div>
             </form>
-            <button class="submit-button">Create Account</button>
+
+            <input type="submit" form="signup-form" value="Create Account" />
             <div class="login-content">Already have an account?<a class="login-link" href="">Log in</a></div>
         </div>
 
