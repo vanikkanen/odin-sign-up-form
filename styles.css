@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -58,20 +59,25 @@
 
 .content-container {
     width: 65vw;
-
-    background-color: orange;
+    background-color: 	#FAF9F6;
 }
 
 .signup-form-header{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     flex: 1;
-    height: 35vh;
 
-    background-color: lightcyan;
+    height: 35vh;
+    max-width: 53ch;
+    font-size: 1.5rem;
+    padding-top: 15vh;
+    padding-left: 2rem;
 }
 
 .signup-form {
     flex: 1;
     height: 30vh;
 
-    background-color: lightgreen;
+    background-color: white;
 }
