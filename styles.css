@@ -15,7 +15,7 @@
     height: 100vh;
     width: 100vw;
 
-    background-color: aqua;
+    background-color: #FAF9F6;
 }
 
 .left-side-container {
@@ -59,7 +59,7 @@
 
 .content-container {
     width: 65vw;
-    background-color: 	#FAF9F6;
+    background-color: #FAF9F6;
 }
 
 .signup-form-header{
