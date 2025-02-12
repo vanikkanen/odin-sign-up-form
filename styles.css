@@ -73,11 +73,12 @@
     gap: 1.5rem;
     flex: 1;
 
-    height: 35vh;
-    max-width: 53ch;
+    max-height: 35vh;
+    max-width: 55ch;
     font-size: 1.5rem;
     padding-top: 15vh;
     padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 
 .signup-form {
