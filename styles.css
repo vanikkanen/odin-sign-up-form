@@ -11,7 +11,7 @@
 
 :root {
     --avg-color: rgb(50, 56, 54);
-    --shadow: 0px 5px 5px lightgray;
+    --shadow: 5px 5px 5px lightgray;
 }
 
 .page-container{
@@ -85,7 +85,7 @@
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
-    height: 30vh;
+    min-height: 30vh;
     padding: 2rem;
     padding-right: 20vw;
     box-shadow: var(--shadow);
@@ -116,8 +116,8 @@
 
 .form-row input {
     background-color: #FFFFFF;
-    border: 1px solid #D6D9DC;
-    border-radius: 3px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
     padding: 7px;
     font-size: 14px;
 }
@@ -139,6 +139,17 @@
     font-size: 1rem;
     font-weight: bold;
     box-shadow: 0px 5px 5px lightgrey;
+}
+
+input:focus {
+    border: 1px solid lightblue !important;
+    box-shadow: var(--shadow);
+    outline: none;
+}
+
+input[id*="password"]:invalid {
+    border: 1px solid red;
+    outline: none;
 }
 
 .login-content {
