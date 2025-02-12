@@ -9,6 +9,11 @@
     src: url(./resources/Norse-Bold.otf);
 }
 
+:root {
+    --avg-color: rgb(50, 56, 54);
+    --shadow: 0px 5px 5px lightgray;
+}
+
 .page-container{
     display: flex;
     flex: 1;
@@ -83,7 +88,7 @@
     height: 30vh;
     padding: 2rem;
     padding-right: 20vw;
-    box-shadow: 0px 5px 5px lightgray;
+    box-shadow: var(--shadow);
 
     background-color: white;
 }
@@ -115,5 +120,34 @@
     border-radius: 3px;
     padding: 7px;
     font-size: 14px;
+}
+
+.submit-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;  
+}
+
+.submit-button {
+    color: white;
+    background-color: var(--avg-color);
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px lightgrey;
+}
+
+.login-content {
+    
+}
+
+.login-link {
+    text-decoration: none;
+    color: var(--avg-color);
+    font-weight: bold;
 }
 
