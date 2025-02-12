@@ -159,13 +159,8 @@ input[id*="password"]:invalid {
     outline: none;
 }
 
-.login-content {
-    
-}
-
 .login-link {
     text-decoration: none;
     color: var(--avg-color);
     font-weight: bold;
 }
-
