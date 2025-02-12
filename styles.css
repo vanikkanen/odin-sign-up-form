@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: norse-bold;
+    src: url(./resources/Norse-Bold.otf);
+}
+
 .page-container{
     display: flex;
     flex: 1;
@@ -16,13 +21,35 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+
+    padding-top: 25vh;
+
+    background-image: url(./resources/daniel-boberg-unsplash.jpg);
+
+}
+
+.credit-container {
+    color: white;
+    margin-top: auto;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.credit-link {
+    color: white;
 }
 
 .logo-container {
     display: flex;
     height: 10vh;
+    justify-content: center;
+    align-items: center;
 
-    background-color: lightcoral;
+    color: white;
+    font-family: norse-bold;
+    font-size: 6rem;
+
+    background-color: hsla(0, 0%, 0%, 50%);
 }
 .logo-image {
     max-width: 100%;
