@@ -48,6 +48,7 @@
 .logo-container {
     display: flex;
     height: 10vh;
+    min-width: 400px;
     justify-content: center;
     align-items: center;
 
@@ -64,6 +65,7 @@
 
 .content-container {
     width: 65vw;
+    min-width: 550px;
     background-color: #FAF9F6;
 }
 
@@ -73,12 +75,9 @@
     gap: 1.5rem;
     flex: 1;
 
-    max-height: 35vh;
     max-width: 55ch;
     font-size: 1.5rem;
-    padding-top: 15vh;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
+    padding: 15vh 2rem 2rem 2rem;
 }
 
 .signup-form {
